@@ -15,7 +15,7 @@ public class Avaliacao02 {
 
         double valorParcela = (emprestimo / parcela);
 
-        if ((parcela < 1) && (parcela > 24)) {
+        if ((parcela < 1) || (parcela > 24)) {
             System.out.println("Empréstimo reprovado, número de parcelas inválida");
         } else if (valorParcela > salario) {
             System.out.println("Empréstimo reprovado, parcela muito alta");
