@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Avaliacao2 {
+public class Avaliacao02 {
     public static void main(String[] args) {
-       Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Qual valor você deseja pegar emprestado");
         double emprestimo = scanner.nextDouble();
@@ -24,3 +24,4 @@ public class Avaliacao2 {
         }
     }
 }
+

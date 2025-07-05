@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class Avaliacao4 {
+public class Avaliacao04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite a sua nota");
         int nota = scanner.nextInt();
-        
+
         if ((nota <= 100) && (nota >= 90)) {
             System.out.println("Sua nota é A");
         } else if ((nota <= 89) && (nota >= 80)) {
@@ -20,3 +20,4 @@ public class Avaliacao4 {
         }
     }
 }
+
